@@ -7,6 +7,6 @@ def export_structure():
     last_name = get_last_name()
     tel = get_tel()
     description = get_description()
-    with open('data_phone1.txt', 'a') as file:
+    with open('Python\lesson_03.09.22\DZ_07_copy\data_phone1.txt', 'a') as file:
         file.write('{}\n{}\n{}\n{}\n\n'\
             .format(first_name, last_name, tel, description))
